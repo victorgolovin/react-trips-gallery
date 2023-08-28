@@ -1,3 +1,8 @@
-# react-trips-gallery
+# React + Vite
 
-https://www.figma.com/file/RMVGyT6VPU105d3s5Z4PFJ/Базовый-React.-Trips-Gallery.?type=design&node-id=1-8&mode=design&t=RyOJxtpgzxiFcmBS-0
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
