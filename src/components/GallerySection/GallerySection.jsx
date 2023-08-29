@@ -1,8 +1,14 @@
 import React from 'react'
+import Heading from '../Heading/Heading'
+import GalleryCart from '../GalleryCart/GalleryCart'
 
 const GallerySection = () => {
   return (
-    <p>adasdasd</p>
+    <div>
+      <Heading 
+      level='h1' text='Галерея путешествий'/>
+      <GalleryCart />
+    </div>
   )
 }
 
