@@ -1,7 +1,31 @@
-.background {
-  background-image: url("../../assets/travelcard1img.jpg");
-  background-size: cover;
-  height: 100vh;
-  font-size: 50px;
-  background-repeat: no-repeat;
+.background-first-travel-card {
+    background-image: url("../../assets/travelcard1img.jpg");
+    background-size: cover;
+    width: 1150px;
+    height: 536px;
+    background-repeat: no-repeat;
+}
+
+.background-second-travel-card {
+    background-image: url("../../assets/travelcard2img.jpg");
+    background-size: cover;
+    width: 1150px;
+    height: 536px;
+    background-repeat: no-repeat;
+}
+
+.background-third-travel-card {
+    background-image: url("../../assets/travelcard3img.jpg");
+    background-size: cover;
+    width: 1150px;
+    height: 536px;
+    background-repeat: no-repeat;
+}
+
+.background-fourth-travel-card {
+    background-image: url("../../assets/travelcard4img.jpg");
+    background-size: cover;
+    width: 1150px;
+    height: 536px;
+    background-repeat: no-repeat;
 }

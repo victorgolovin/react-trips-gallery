@@ -1,12 +1,16 @@
 import React from 'react'
+import './GalleryCart.css'
 
 const GalleryCart = (props) => {
   return (
     <div>
       <div>
-        <img src={props.image}/>
-        <div>{props.transport}</div>
-        <p>{props.city}, {props.month} — {props.price}</p>
+        <p>{props.transport}</p>
+        <p>{props.peopleNumber}</p>
+        <img src={props.peopleImg} alt="People-img" />
+      </div>
+      <div>
+        <p>{props.city}, {props.month} - {props.price}</p>
       </div>
     </div>
   )

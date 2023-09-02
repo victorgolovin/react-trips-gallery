@@ -3,9 +3,9 @@ import GallerySection from './components/GallerySection/GallerySection'
 
 const App = () => {
   return (
-    <div className='container'>
+    <section className='section-gallery'>
       <GallerySection />
-    </div>
+    </section>
   )
 }
 
