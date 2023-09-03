@@ -6,8 +6,8 @@ const GalleryCart = (props) => {
     <div>
       <div>
         <p>{props.transport}</p>
-        <p>{props.peopleNumber}</p>
-        <img src={props.peopleImg} alt="People-img" />
+        { props.peopleNumber && (<p>{props.peopleNumber}</p>) }
+        { props.peopleImg && (<img src={props.peopleImg} alt="People-img" />) }
       </div>
       <div>
         <p>{props.city}, {props.month} - {props.price}</p>
