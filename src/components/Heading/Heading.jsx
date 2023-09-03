@@ -1,4 +1,5 @@
 import React from 'react'
+import './Heading.css'
 
 const Heading = (props) => {
     if (props.level === 'h1') {

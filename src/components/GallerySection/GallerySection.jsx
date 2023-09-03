@@ -12,7 +12,6 @@ const GallerySection = () => {
         <GalleryCart
           transport="на автобусе"
           peopleNumber={10}
-          peopleImg={imgPeople}
           city="Тбилиси"
           month="Апрель"
           price={83000}
@@ -22,7 +21,6 @@ const GallerySection = () => {
         <GalleryCart
           transport="на самолете"
           peopleNumber={false}
-          peopleImg={false}
           city="Стамбул"
           month="Март"
           price={110000}
@@ -32,7 +30,6 @@ const GallerySection = () => {
         <GalleryCart
           transport="на самолете"
           peopleNumber={15}
-          peopleImg={imgPeople}
           city="Дубай"
           month="июнь"
           price={220000}
@@ -42,7 +39,6 @@ const GallerySection = () => {
         <GalleryCart
           transport="самолет + паром"
           peopleNumber={11}
-          peopleImg={imgPeople}
           city="Пхукет"
           month="сентябрь"
           price={135000}

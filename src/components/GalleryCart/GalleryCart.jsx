@@ -4,13 +4,16 @@ import './GalleryCart.css'
 const GalleryCart = (props) => {
   return (
     <div>
-      <div>
-        <p>{props.transport}</p>
-        { props.peopleNumber && (<p>{props.peopleNumber}</p>) }
-        { props.peopleImg && (<img src={props.peopleImg} alt="People-img" />) }
+      <div className='cart-inner-top-info'>
+        <div className='cart-inner-top-transport-wrapper'>
+          <p className='cart-inner-top-transport'>{props.transport}</p>
+        </div>
+        <div className='cart-inner-top-info-people-wrapper'>
+          { props.peopleNumber && (<p className='cart-inner-top-info-people-number'>{props.peopleNumber}</p>) }
+        </div>
       </div>
-      <div>
-        <p>{props.city}, {props.month} - {props.price}</p>
+      <div className='cart-inner-bottom-info'>
+        <p className='cart-inner-bottom-info-text'>{props.city}, {props.month} - {props.price}</p>
       </div>
     </div>
   )

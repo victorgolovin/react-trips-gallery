@@ -1,0 +1,25 @@
+.cart-inner-top-info {
+    display: flex;
+}
+
+.cart-inner-top-transport-wrapper {
+    border-radius: 100px;
+    background-color: #FFF59D;
+}
+
+.cart-inner-top-transport,
+.cart-inner-top-info-people-number {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cart-inner-top-info-people-number::after {
+    
+}
