@@ -14,6 +14,7 @@ const GalleryCart = (props) => {
       </div>
       <div className='cart-inner-bottom-info'>
         <p className='cart-inner-bottom-info-text'>{props.city}, {props.month} - {props.price}</p>
+        <div></div>
       </div>
     </div>
   )
