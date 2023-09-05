@@ -3,7 +3,7 @@ import './GalleryCart.css'
 
 const GalleryCart = (props) => {
   return (
-    <div>
+    <>
       <div className='cart-inner-top-info'>
         <div className='cart-inner-top-transport-wrapper'>
           <p className='cart-inner-top-transport'>{props.transport}</p>
@@ -13,10 +13,9 @@ const GalleryCart = (props) => {
         </div>
       </div>
       <div className='cart-inner-bottom-info'>
-        <p className='cart-inner-bottom-info-text'>{props.city}, {props.month} - {props.price}</p>
-        <div></div>
+        <p className='cart-inner-bottom-info-text'>{props.city}, {props.month} — {props.price}</p>
       </div>
-    </div>
+    </>
   )
 }
 

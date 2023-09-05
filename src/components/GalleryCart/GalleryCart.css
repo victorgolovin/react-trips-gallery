@@ -1,8 +1,14 @@
-.cart-inner-top-info {
+.background-first-travel-card-wrapper {
     display: flex;
 }
 
-.cart-inner-top-transport-wrapper {
+.cart-inner-top-info {
+    display: flex;
+
+}
+
+.cart-inner-top-transport-wrapper,
+.cart-inner-top-info-people-wrapper {
     border-radius: 100px;
     background-color: #FFF59D;
 }
@@ -20,6 +26,26 @@
     text-transform: uppercase;
 }
 
+.cart-inner-top-info-people-number {
+    padding-right: 35px;
+}
+
 .cart-inner-top-info-people-number::after {
-    
+    content: "";
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.cart-inner-top-info-people-number::after {
+    background-image: url('../../assets/imgPeople.png');
+    position: absolute;
+}
+
+.cart-inner-bottom-info-text {
+    font-size: 45px;
+    line-height: 42px;
+    color: #FFFEF4;
 }

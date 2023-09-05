@@ -2,7 +2,7 @@ import React from "react";
 import Heading from "../Heading/Heading";
 import GalleryCart from "../GalleryCart/GalleryCart";
 import "./GallerySection.css";
-import imgPeople from "../../assets/imgPeople.png";
+
 
 const GallerySection = () => {
   return (
@@ -13,8 +13,8 @@ const GallerySection = () => {
           transport="на автобусе"
           peopleNumber={10}
           city="Тбилиси"
-          month="Апрель"
-          price={83000}
+          month="апрель"
+          price={'83.000'}
         />
       </div>
       <div className="background-second-travel-card ">
@@ -23,7 +23,7 @@ const GallerySection = () => {
           peopleNumber={false}
           city="Стамбул"
           month="Март"
-          price={110000}
+          price={'110.000'}
         />
       </div>
       <div className="background-third-travel-card ">
@@ -32,7 +32,7 @@ const GallerySection = () => {
           peopleNumber={15}
           city="Дубай"
           month="июнь"
-          price={220000}
+          price={'220.000'}
         />
       </div>
       <div className="background-fourth-travel-card ">
@@ -41,7 +41,7 @@ const GallerySection = () => {
           peopleNumber={11}
           city="Пхукет"
           month="сентябрь"
-          price={135000}
+          price={'135.000'}
         />
       </div>
     </div>
