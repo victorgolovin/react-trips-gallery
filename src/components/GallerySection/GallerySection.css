@@ -1,28 +1,74 @@
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .background-first-travel-card {
-    background-image: url("../../assets/travelcard1img.jpg"); 
+  background-image: url("../../assets/travelcard1img.jpg");
 }
 
 .background-second-travel-card {
-    background-image: url("../../assets/travelcard2img.jpg");
+  background-image: url("../../assets/travelcard2img.jpg");
 }
 
 .background-third-travel-card {
-    background-image: url("../../assets/travelcard3img.jpg");
+  background-image: url("../../assets/travelcard3img.jpg");
 }
 
 .background-fourth-travel-card {
-    background-image: url("../../assets/travelcard4img.jpg");
+  background-image: url("../../assets/travelcard4img.jpg");
 }
 
 .background-first-travel-card,
 .background-second-travel-card,
 .background-third-travel-card,
 .background-fourth-travel-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-size: cover;
-    width: 1150px;
-    height: 536px;
-    background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+  width: 1150px;
+  height: 536px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .background-first-travel-card,
+  .background-second-travel-card,
+  .background-third-travel-card,
+  .background-fourth-travel-card {
+    width: 100%;
+    height: 450px;
+  }
+}
+
+@media (max-width: 889px) {
+  .background-first-travel-card,
+  .background-second-travel-card,
+  .background-third-travel-card,
+  .background-fourth-travel-card {
+    height: 350px;
+  }
+}
+
+@media (max-width: 679px) {
+  .background-first-travel-card,
+  .background-second-travel-card,
+  .background-third-travel-card,
+  .background-fourth-travel-card {
+    height: 250px;
+  }
 }

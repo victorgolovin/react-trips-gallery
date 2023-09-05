@@ -1,0 +1,18 @@
+.gallery-section {
+  padding-top: 110px;
+  padding-bottom: 84px;
+}
+
+@media (max-width: 1199px) {
+  .gallery-section {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 679px) {
+  .gallery-section {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+}

@@ -1,51 +1,90 @@
-.background-first-travel-card-wrapper {
-    display: flex;
-}
-
 .cart-inner-top-info {
-    display: flex;
-
+  display: flex;
+  padding-top: 40px;
+  padding-left: 40px;
 }
 
 .cart-inner-top-transport-wrapper,
 .cart-inner-top-info-people-wrapper {
-    border-radius: 100px;
-    background-color: #FFF59D;
+  border-radius: 100px;
+  background-color: #fff59d;
 }
 
 .cart-inner-top-transport,
 .cart-inner-top-info-people-number {
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 16px;
-    line-height: 15px;
-    font-weight: 700;
-    text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  line-height: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .cart-inner-top-info-people-number {
-    padding-right: 35px;
+  padding-right: 35px;
 }
 
 .cart-inner-top-info-people-number::after {
-    content: "";
+  content: "";
   position: relative;
   width: 16px;
   height: 16px;
+  padding-left: 3px;
   background-repeat: no-repeat;
   background-position: 50%;
 }
 
 .cart-inner-top-info-people-number::after {
-    background-image: url('../../assets/imgPeople.png');
-    position: absolute;
+  background-image: url("../../assets/imgPeople.png");
+  position: absolute;
+}
+
+.cart-inner-bottom-info {
+  padding-bottom: 40px;
+  padding-left: 40px;
 }
 
 .cart-inner-bottom-info-text {
-    font-size: 45px;
-    line-height: 42px;
-    color: #FFFEF4;
+  font-size: 45px;
+  line-height: 42px;
+  color: #fffef4;
+}
+
+@media (max-width: 889px) {
+  .cart-inner-top-transport,
+  .cart-inner-top-info-people-number {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 12px;
+    line-height: 13px;
+  }
+
+  .cart-inner-top-info-people-number {
+    padding-right: 30px;
+  }
+
+  .cart-inner-top-info-people-number::after {
+    width: 14px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding-left: 5px;
+  }
+
+  .cart-inner-bottom-info-text {
+    font-size: 30px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 679px) {
+  .cart-inner-bottom-info-text {
+    font-size: 25px;
+    line-height: 22px;
+  }
 }
